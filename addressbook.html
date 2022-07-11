@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>AddressBook</title>
+	<link rel="stylesheet" href="addressbook.css">
+	<script src="addressbook.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="title">
+			<h1>Address Book</h1>
+		</div>
+		<div class="quickadd"><button id="QuickAdd">+ Add</button></div>
+		<div class="quickaddForm">
+			<label for="firstname">First Name</label><input type="text" id="firstname" class="formFields">
+			<label for="lastname">Last Name</label><input type="text" id="lastname" class="formFields">
+			<label for="phone">Phone</label>
+			<input class="formFields" type="tel" id="phone" name="phone"  placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required >
+			<label for="email">E-Mail</label><input type="text" id="email" class="formFields">
+			<label for="avatar">Contact picture:</label>
+			<input type="file"
+			id="avatar" name="avatar"
+			accept="image/png, image/jpeg">
+
+			<br><br>
+			<button id="Add">Add Now</button><button id="Cancel">Cancel</button>
+		</div>
+		<div class="addbook">
+			
+			
+		</div>
+	</div>
+</body>
+</html>
